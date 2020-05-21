@@ -5,13 +5,23 @@ function generateMarkdown(data) {
 
     fs.writeFile(
         filename,
-    `[!https://img.shields.io/badge/Rutgers-100.0%25-red]
-     # ${data.title}
-    \n\n[${data.tableOfContents[0]}](# Installations)\n\n[${data.tableOfContents[1]
-    }](# Usage)\n\n[${data.tableOfContents[2]}](# Credits)\n\n[${data.tableOfContents[3]}](# License)
-    \n\n ## Credits \n ${data.description} \n\n ## Installation \n ${data.installation}
-    \n\n ## Description \n ${data.credits} \n\n ## Usage \n ${data.usage}
-    \n\n ## License \n ${data.license} ## UserName: ${data.githubUserName}`,
+    `(https://img.shields.io/badge/Rutgers-100.0%25-red)${"# " + data.title}
+    [${data.tableOfContents[0]}](#Installations)]
+    [${data.tableOfContents[1]}](#Usage)
+    [${data.tableOfContents[2]}](#Credits)
+    [${data.tableOfContents[3]}](#License)
+    ## Credits 
+    ${data.description} 
+    ## Installation
+    ${data.installation}
+    ## Description
+    ${data.credits}
+    ## Usage 
+    ${data.usage}
+    ## License 
+    ${data.license}
+    ## UserName:
+    ${data.githubUserName}`,
 
 
     function(err){

@@ -1,14 +1,17 @@
-[!https://img.shields.io/badge/Rutgers-100.0%25-red]
+![](https://img.shields.io/badge/Rutgers-100.0%25-red)
+
+
      # lorem
     
+ 
+[Installation](#Installations)
 
-[undefined](# Installations)
+[Usage](#Usage)
+    
 
-[undefined](# Usage)
+[Credits](#Credits)
 
-[undefined](# Credits)
-
-[undefined](# License)
+[License](#License)
     
 
  ## Credits 
@@ -22,8 +25,8 @@
  lorem 
 
  ## Usage 
- lorem
+ lore
     
 
  ## License 
- lorem ## UserName: williewill824
+ lore, ## UserName: lorem
